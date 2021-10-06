@@ -1,0 +1,2554 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook original-version='18.1' source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='FAERS DATA' inline='true' name='federated.00kvatr0nj51w71dsbche0jxv1wf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='FAERS DATA' name='textscan.12ec7a30zy23kj1f46d0q0tomw1d'>
+            <connection class='textscan' directory='C:/Users/MPRat/Desktop/DATaT/prj' filename='FAERS DATA.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.12ec7a30zy23kj1f46d0q0tomw1d' name='FAERS DATA.csv' table='[FAERS DATA#csv]' type='table'>
+          <columns character-set='UTF-16LE' header='yes' locale='en_IN' separator='&#9;'>
+            <column datatype='string' name='Age Bracket' ordinal='0' />
+            <column datatype='string' name='Age Group' ordinal='1' />
+            <column datatype='real' name='Age' ordinal='2' />
+            <column datatype='integer' name='AGG CaseID' ordinal='3' />
+            <column datatype='integer' name='min year date' ordinal='4' />
+            <column datatype='integer' name='max year date' ordinal='5' />
+            <column datatype='string' name='Calculation 569142461016309766' ordinal='6' />
+            <column datatype='integer' name='Case Count' ordinal='7' />
+            <column datatype='string' name='Category' ordinal='8' />
+            <column datatype='string' name='Drug Reaction Grouping' ordinal='9' />
+            <column datatype='string' name='Drug Reactions' ordinal='10' />
+            <column datatype='string' name='Electronic Submission Flag' ordinal='11' />
+            <column datatype='date' name='Event Date' ordinal='12' />
+            <column datatype='date' name='Event Dt' ordinal='13' />
+            <column datatype='string' name='Event Location' ordinal='14' />
+            <column datatype='string' name='Female Icon' ordinal='15' />
+            <column datatype='string' name='Gender (Null Color)' ordinal='16' />
+            <column datatype='string' name='MFR Notification Flag' ordinal='17' />
+            <column datatype='string' name='Male Icon' ordinal='18' />
+            <column datatype='integer' name='Max Event Date' ordinal='19' />
+            <column datatype='integer' name='Min Event Date' ordinal='20' />
+            <column datatype='integer' name='Number of Records (Extract1)' ordinal='21' />
+            <column datatype='integer' name='Number of Records' ordinal='22' />
+            <column datatype='string' name='Patient Age Code' ordinal='23' />
+            <column datatype='string' name='Patient Gender' ordinal='24' />
+            <column datatype='string' name='Patient Outcome (group)' ordinal='25' />
+            <column datatype='string' name='Patient Outcome' ordinal='26' />
+            <column datatype='string' name='Patient Weght' ordinal='27' />
+            <column datatype='string' name='Reaction Term' ordinal='28' />
+            <column datatype='string' name='Reporter Occupation' ordinal='29' />
+            <column datatype='string' name='Weight UoM' ordinal='30' />
+            <column datatype='integer' name='Weight' ordinal='31' />
+            <column datatype='real' name='X' ordinal='32' />
+            <column datatype='real' name='Y' ordinal='33' />
+            <column datatype='integer' name='Zero' ordinal='34' />
+            <column datatype='string' name='Auth Num' ordinal='35' />
+            <column datatype='integer' name='caseid (DRUG16Q1.txt)' ordinal='36' />
+            <column datatype='integer' name='caseid (INDI16Q1.txt)' ordinal='37' />
+            <column datatype='integer' name='caseid (OUTC16Q1.txt)' ordinal='38' />
+            <column datatype='integer' name='caseid (REAC16Q1.txt)' ordinal='39' />
+            <column datatype='integer' name='caseid (RPSR16Q1.txt)' ordinal='40' />
+            <column datatype='integer' name='caseid (THER16Q1.txt)' ordinal='41' />
+            <column datatype='integer' name='Caseid' ordinal='42' />
+            <column datatype='integer' name='Caseversion' ordinal='43' />
+            <column datatype='integer' name='Cum Dose Chr' ordinal='44' />
+            <column datatype='string' name='Cum Dose Unit' ordinal='45' />
+            <column datatype='string' name='Dechal' ordinal='46' />
+            <column datatype='real' name='Dose Amt' ordinal='47' />
+            <column datatype='string' name='Dose Form' ordinal='48' />
+            <column datatype='string' name='Dose Freq' ordinal='49' />
+            <column datatype='string' name='Dose Unit' ordinal='50' />
+            <column datatype='string' name='Dose Vbm' ordinal='51' />
+            <column datatype='string' name='Drug Rec Act' ordinal='52' />
+            <column datatype='integer' name='Drug Seq' ordinal='53' />
+            <column datatype='string' name='Drugname' ordinal='54' />
+            <column datatype='integer' name='Dsg Drug Seq' ordinal='55' />
+            <column datatype='integer' name='Dur' ordinal='56' />
+            <column datatype='string' name='Dur Cod' ordinal='57' />
+            <column datatype='integer' name='End Dt' ordinal='58' />
+            <column datatype='date' name='Event Dt1' ordinal='59' />
+            <column datatype='date' name='Exp Dt' ordinal='60' />
+            <column datatype='date' name='Fda Dt' ordinal='61' />
+            <column datatype='boolean' name='I F Code' ordinal='62' />
+            <column datatype='integer' name='Indi Drug Seq' ordinal='63' />
+            <column datatype='string' name='Indi Pt' ordinal='64' />
+            <column datatype='date' name='Init Fda Dt' ordinal='65' />
+            <column datatype='string' name='Lit Ref' ordinal='66' />
+            <column datatype='string' name='Lot Num' ordinal='67' />
+            <column datatype='date' name='Mfr Dt' ordinal='68' />
+            <column datatype='string' name='Mfr Num' ordinal='69' />
+            <column datatype='string' name='Mfr Sndr' ordinal='70' />
+            <column datatype='integer' name='Nda Num' ordinal='71' />
+            <column datatype='integer' name='primaryid (DRUG16Q1.txt)' ordinal='72' />
+            <column datatype='integer' name='primaryid (INDI16Q1.txt)' ordinal='73' />
+            <column datatype='integer' name='primaryid (OUTC16Q1.txt)' ordinal='74' />
+            <column datatype='integer' name='primaryid (REAC16Q1.txt)' ordinal='75' />
+            <column datatype='integer' name='primaryid (RPSR16Q1.txt)' ordinal='76' />
+            <column datatype='integer' name='primaryid (THER16Q1.txt)' ordinal='77' />
+            <column datatype='integer' name='Primaryid' ordinal='78' />
+            <column datatype='string' name='Prod Ai' ordinal='79' />
+            <column datatype='string' name='Pt' ordinal='80' />
+            <column datatype='string' name='Rechal' ordinal='81' />
+            <column datatype='string' name='Reporter Country' ordinal='82' />
+            <column datatype='string' name='Rept Cod' ordinal='83' />
+            <column datatype='date' name='Rept Dt' ordinal='84' />
+            <column datatype='string' name='Role Cod' ordinal='85' />
+            <column datatype='string' name='Route' ordinal='86' />
+            <column datatype='string' name='Rpsr Cod' ordinal='87' />
+            <column datatype='integer' name='Start Dt' ordinal='88' />
+            <column datatype='integer' name='Val Vbm' ordinal='89' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.12ec7a30zy23kj1f46d0q0tomw1d' name='FAERS DATA.csv' table='[FAERS DATA#csv]' type='table'>
+          <columns character-set='UTF-16LE' header='yes' locale='en_IN' separator='&#9;'>
+            <column datatype='string' name='Age Bracket' ordinal='0' />
+            <column datatype='string' name='Age Group' ordinal='1' />
+            <column datatype='real' name='Age' ordinal='2' />
+            <column datatype='integer' name='AGG CaseID' ordinal='3' />
+            <column datatype='integer' name='min year date' ordinal='4' />
+            <column datatype='integer' name='max year date' ordinal='5' />
+            <column datatype='string' name='Calculation 569142461016309766' ordinal='6' />
+            <column datatype='integer' name='Case Count' ordinal='7' />
+            <column datatype='string' name='Category' ordinal='8' />
+            <column datatype='string' name='Drug Reaction Grouping' ordinal='9' />
+            <column datatype='string' name='Drug Reactions' ordinal='10' />
+            <column datatype='string' name='Electronic Submission Flag' ordinal='11' />
+            <column datatype='date' name='Event Date' ordinal='12' />
+            <column datatype='date' name='Event Dt' ordinal='13' />
+            <column datatype='string' name='Event Location' ordinal='14' />
+            <column datatype='string' name='Female Icon' ordinal='15' />
+            <column datatype='string' name='Gender (Null Color)' ordinal='16' />
+            <column datatype='string' name='MFR Notification Flag' ordinal='17' />
+            <column datatype='string' name='Male Icon' ordinal='18' />
+            <column datatype='integer' name='Max Event Date' ordinal='19' />
+            <column datatype='integer' name='Min Event Date' ordinal='20' />
+            <column datatype='integer' name='Number of Records (Extract1)' ordinal='21' />
+            <column datatype='integer' name='Number of Records' ordinal='22' />
+            <column datatype='string' name='Patient Age Code' ordinal='23' />
+            <column datatype='string' name='Patient Gender' ordinal='24' />
+            <column datatype='string' name='Patient Outcome (group)' ordinal='25' />
+            <column datatype='string' name='Patient Outcome' ordinal='26' />
+            <column datatype='string' name='Patient Weght' ordinal='27' />
+            <column datatype='string' name='Reaction Term' ordinal='28' />
+            <column datatype='string' name='Reporter Occupation' ordinal='29' />
+            <column datatype='string' name='Weight UoM' ordinal='30' />
+            <column datatype='integer' name='Weight' ordinal='31' />
+            <column datatype='real' name='X' ordinal='32' />
+            <column datatype='real' name='Y' ordinal='33' />
+            <column datatype='integer' name='Zero' ordinal='34' />
+            <column datatype='string' name='Auth Num' ordinal='35' />
+            <column datatype='integer' name='caseid (DRUG16Q1.txt)' ordinal='36' />
+            <column datatype='integer' name='caseid (INDI16Q1.txt)' ordinal='37' />
+            <column datatype='integer' name='caseid (OUTC16Q1.txt)' ordinal='38' />
+            <column datatype='integer' name='caseid (REAC16Q1.txt)' ordinal='39' />
+            <column datatype='integer' name='caseid (RPSR16Q1.txt)' ordinal='40' />
+            <column datatype='integer' name='caseid (THER16Q1.txt)' ordinal='41' />
+            <column datatype='integer' name='Caseid' ordinal='42' />
+            <column datatype='integer' name='Caseversion' ordinal='43' />
+            <column datatype='integer' name='Cum Dose Chr' ordinal='44' />
+            <column datatype='string' name='Cum Dose Unit' ordinal='45' />
+            <column datatype='string' name='Dechal' ordinal='46' />
+            <column datatype='real' name='Dose Amt' ordinal='47' />
+            <column datatype='string' name='Dose Form' ordinal='48' />
+            <column datatype='string' name='Dose Freq' ordinal='49' />
+            <column datatype='string' name='Dose Unit' ordinal='50' />
+            <column datatype='string' name='Dose Vbm' ordinal='51' />
+            <column datatype='string' name='Drug Rec Act' ordinal='52' />
+            <column datatype='integer' name='Drug Seq' ordinal='53' />
+            <column datatype='string' name='Drugname' ordinal='54' />
+            <column datatype='integer' name='Dsg Drug Seq' ordinal='55' />
+            <column datatype='integer' name='Dur' ordinal='56' />
+            <column datatype='string' name='Dur Cod' ordinal='57' />
+            <column datatype='integer' name='End Dt' ordinal='58' />
+            <column datatype='date' name='Event Dt1' ordinal='59' />
+            <column datatype='date' name='Exp Dt' ordinal='60' />
+            <column datatype='date' name='Fda Dt' ordinal='61' />
+            <column datatype='boolean' name='I F Code' ordinal='62' />
+            <column datatype='integer' name='Indi Drug Seq' ordinal='63' />
+            <column datatype='string' name='Indi Pt' ordinal='64' />
+            <column datatype='date' name='Init Fda Dt' ordinal='65' />
+            <column datatype='string' name='Lit Ref' ordinal='66' />
+            <column datatype='string' name='Lot Num' ordinal='67' />
+            <column datatype='date' name='Mfr Dt' ordinal='68' />
+            <column datatype='string' name='Mfr Num' ordinal='69' />
+            <column datatype='string' name='Mfr Sndr' ordinal='70' />
+            <column datatype='integer' name='Nda Num' ordinal='71' />
+            <column datatype='integer' name='primaryid (DRUG16Q1.txt)' ordinal='72' />
+            <column datatype='integer' name='primaryid (INDI16Q1.txt)' ordinal='73' />
+            <column datatype='integer' name='primaryid (OUTC16Q1.txt)' ordinal='74' />
+            <column datatype='integer' name='primaryid (REAC16Q1.txt)' ordinal='75' />
+            <column datatype='integer' name='primaryid (RPSR16Q1.txt)' ordinal='76' />
+            <column datatype='integer' name='primaryid (THER16Q1.txt)' ordinal='77' />
+            <column datatype='integer' name='Primaryid' ordinal='78' />
+            <column datatype='string' name='Prod Ai' ordinal='79' />
+            <column datatype='string' name='Pt' ordinal='80' />
+            <column datatype='string' name='Rechal' ordinal='81' />
+            <column datatype='string' name='Reporter Country' ordinal='82' />
+            <column datatype='string' name='Rept Cod' ordinal='83' />
+            <column datatype='date' name='Rept Dt' ordinal='84' />
+            <column datatype='string' name='Role Cod' ordinal='85' />
+            <column datatype='string' name='Route' ordinal='86' />
+            <column datatype='string' name='Rpsr Cod' ordinal='87' />
+            <column datatype='integer' name='Start Dt' ordinal='88' />
+            <column datatype='integer' name='Val Vbm' ordinal='89' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-16LE&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;&#9;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age Bracket</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age Bracket]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Age Bracket</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age Group]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Age Group</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGG CaseID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AGG CaseID]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>AGG CaseID</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>min year date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[min year date]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>min year date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>max year date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[max year date]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>max year date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calculation 569142461016309766</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Calculation 569142461016309766]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Calculation 569142461016309766</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Case Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Case Count]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Case Count</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drug Reaction Grouping</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Drug Reaction Grouping]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Drug Reaction Grouping</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drug Reactions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Drug Reactions]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Drug Reactions</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electronic Submission Flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electronic Submission Flag]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Electronic Submission Flag</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Event Date]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Event Date</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event Dt</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Event Dt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Event Dt</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Event Location]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Event Location</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Female Icon</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Female Icon]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Female Icon</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender (Null Color)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender (Null Color)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Gender (Null Color)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MFR Notification Flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MFR Notification Flag]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>MFR Notification Flag</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Male Icon</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Male Icon]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Male Icon</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Max Event Date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Max Event Date]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Max Event Date</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Min Event Date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Min Event Date]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Min Event Date</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Records (Extract1)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Records (Extract1)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Number of Records (Extract1)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Records]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Number of Records</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Age Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Age Code]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Patient Age Code</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Gender]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Patient Gender</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Outcome (group)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Outcome (group)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Patient Outcome (group)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Outcome</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Outcome]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Patient Outcome</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Weght</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Weght]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Patient Weght</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reaction Term</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Reaction Term]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Reaction Term</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reporter Occupation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Reporter Occupation]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Reporter Occupation</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weight UoM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weight UoM]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Weight UoM</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weight</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Weight]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Weight</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>X</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Y</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Y]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Y</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zero</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zero]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Zero</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Auth Num</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Auth Num]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Auth Num</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>caseid (DRUG16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[caseid (DRUG16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>caseid (DRUG16Q1.txt)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>caseid (INDI16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[caseid (INDI16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>caseid (INDI16Q1.txt)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>caseid (OUTC16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[caseid (OUTC16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>caseid (OUTC16Q1.txt)</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>caseid (REAC16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[caseid (REAC16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>caseid (REAC16Q1.txt)</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>caseid (RPSR16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[caseid (RPSR16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>caseid (RPSR16Q1.txt)</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>caseid (THER16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[caseid (THER16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>caseid (THER16Q1.txt)</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Caseid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Caseid]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Caseid</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Caseversion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Caseversion]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Caseversion</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cum Dose Chr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cum Dose Chr]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Cum Dose Chr</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cum Dose Unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Cum Dose Unit]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Cum Dose Unit</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dechal</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dechal]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Dechal</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dose Amt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dose Amt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Dose Amt</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dose Form</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dose Form]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Dose Form</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dose Freq</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dose Freq]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Dose Freq</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dose Unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dose Unit]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Dose Unit</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dose Vbm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dose Vbm]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Dose Vbm</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drug Rec Act</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Drug Rec Act]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Drug Rec Act</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drug Seq</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Drug Seq]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Drug Seq</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drugname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Drugname]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Drugname</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dsg Drug Seq</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dsg Drug Seq]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Dsg Drug Seq</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dur</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dur]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Dur</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dur Cod</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dur Cod]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Dur Cod</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Dt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[End Dt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>End Dt</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event Dt1</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Event Dt1]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Event Dt1</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Exp Dt</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Exp Dt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Exp Dt</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fda Dt</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Fda Dt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Fda Dt</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I F Code</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[I F Code]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>I F Code</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indi Drug Seq</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Indi Drug Seq]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Indi Drug Seq</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indi Pt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Indi Pt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Indi Pt</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Init Fda Dt</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Init Fda Dt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Init Fda Dt</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lit Ref</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Lit Ref]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Lit Ref</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lot Num</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Lot Num]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Lot Num</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mfr Dt</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Mfr Dt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Mfr Dt</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mfr Num</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mfr Num]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Mfr Num</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mfr Sndr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mfr Sndr]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Mfr Sndr</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nda Num</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nda Num]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Nda Num</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primaryid (DRUG16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[primaryid (DRUG16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>primaryid (DRUG16Q1.txt)</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primaryid (INDI16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[primaryid (INDI16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>primaryid (INDI16Q1.txt)</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primaryid (OUTC16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[primaryid (OUTC16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>primaryid (OUTC16Q1.txt)</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primaryid (REAC16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[primaryid (REAC16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>primaryid (REAC16Q1.txt)</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primaryid (RPSR16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[primaryid (RPSR16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>primaryid (RPSR16Q1.txt)</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primaryid (THER16Q1.txt)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[primaryid (THER16Q1.txt)]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>primaryid (THER16Q1.txt)</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primaryid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Primaryid]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Primaryid</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prod Ai</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Prod Ai]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Prod Ai</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Pt</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rechal</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rechal]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Rechal</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reporter Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Reporter Country]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Reporter Country</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rept Cod</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rept Cod]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Rept Cod</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rept Dt</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Rept Dt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Rept Dt</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Role Cod</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Role Cod]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Role Cod</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Route</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Route]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Route</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rpsr Cod</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rpsr Cod]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Rpsr Cod</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Dt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Start Dt]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Start Dt</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Val Vbm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Val Vbm]</local-name>
+            <parent-name>[FAERS DATA.csv]</parent-name>
+            <remote-alias>Val Vbm</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[AGG CaseID]' role='dimension' type='ordinal' />
+      <column caption='Color by Gender' datatype='string' name='[Calculation_1143632898656841728]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Patient Gender] = &quot;Female&quot; THEN &quot;Female&quot;&#13;&#10;    ELSEIF [Patient Gender] = &quot;Male&quot; THEN &quot;Male&quot;&#13;&#10;        ELSE &quot;Null&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='integer' name='[Nda Num]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Reporter Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='FAERS DATA.csv' datatype='table' name='[__tableau_internal_object_id__].[FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C]' role='measure' type='quantitative' />
+      <column caption='Max Year Date' datatype='integer' name='[max year date]' role='measure' type='quantitative' />
+      <column caption='Min Year Date' datatype='integer' name='[min year date]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='FAERS DATA.csv' id='FAERS DATA.csv_8E59651A68C9410CA2B466CAC2CC2A7C'>
+            <properties context=''>
+              <relation connection='textscan.12ec7a30zy23kj1f46d0q0tomw1d' name='FAERS DATA.csv' table='[FAERS DATA#csv]' type='table'>
+                <columns character-set='UTF-16LE' header='yes' locale='en_IN' separator='&#9;'>
+                  <column datatype='string' name='Age Bracket' ordinal='0' />
+                  <column datatype='string' name='Age Group' ordinal='1' />
+                  <column datatype='real' name='Age' ordinal='2' />
+                  <column datatype='integer' name='AGG CaseID' ordinal='3' />
+                  <column datatype='integer' name='min year date' ordinal='4' />
+                  <column datatype='integer' name='max year date' ordinal='5' />
+                  <column datatype='string' name='Calculation 569142461016309766' ordinal='6' />
+                  <column datatype='integer' name='Case Count' ordinal='7' />
+                  <column datatype='string' name='Category' ordinal='8' />
+                  <column datatype='string' name='Drug Reaction Grouping' ordinal='9' />
+                  <column datatype='string' name='Drug Reactions' ordinal='10' />
+                  <column datatype='string' name='Electronic Submission Flag' ordinal='11' />
+                  <column datatype='date' name='Event Date' ordinal='12' />
+                  <column datatype='date' name='Event Dt' ordinal='13' />
+                  <column datatype='string' name='Event Location' ordinal='14' />
+                  <column datatype='string' name='Female Icon' ordinal='15' />
+                  <column datatype='string' name='Gender (Null Color)' ordinal='16' />
+                  <column datatype='string' name='MFR Notification Flag' ordinal='17' />
+                  <column datatype='string' name='Male Icon' ordinal='18' />
+                  <column datatype='integer' name='Max Event Date' ordinal='19' />
+                  <column datatype='integer' name='Min Event Date' ordinal='20' />
+                  <column datatype='integer' name='Number of Records (Extract1)' ordinal='21' />
+                  <column datatype='integer' name='Number of Records' ordinal='22' />
+                  <column datatype='string' name='Patient Age Code' ordinal='23' />
+                  <column datatype='string' name='Patient Gender' ordinal='24' />
+                  <column datatype='string' name='Patient Outcome (group)' ordinal='25' />
+                  <column datatype='string' name='Patient Outcome' ordinal='26' />
+                  <column datatype='string' name='Patient Weght' ordinal='27' />
+                  <column datatype='string' name='Reaction Term' ordinal='28' />
+                  <column datatype='string' name='Reporter Occupation' ordinal='29' />
+                  <column datatype='string' name='Weight UoM' ordinal='30' />
+                  <column datatype='integer' name='Weight' ordinal='31' />
+                  <column datatype='real' name='X' ordinal='32' />
+                  <column datatype='real' name='Y' ordinal='33' />
+                  <column datatype='integer' name='Zero' ordinal='34' />
+                  <column datatype='string' name='Auth Num' ordinal='35' />
+                  <column datatype='integer' name='caseid (DRUG16Q1.txt)' ordinal='36' />
+                  <column datatype='integer' name='caseid (INDI16Q1.txt)' ordinal='37' />
+                  <column datatype='integer' name='caseid (OUTC16Q1.txt)' ordinal='38' />
+                  <column datatype='integer' name='caseid (REAC16Q1.txt)' ordinal='39' />
+                  <column datatype='integer' name='caseid (RPSR16Q1.txt)' ordinal='40' />
+                  <column datatype='integer' name='caseid (THER16Q1.txt)' ordinal='41' />
+                  <column datatype='integer' name='Caseid' ordinal='42' />
+                  <column datatype='integer' name='Caseversion' ordinal='43' />
+                  <column datatype='integer' name='Cum Dose Chr' ordinal='44' />
+                  <column datatype='string' name='Cum Dose Unit' ordinal='45' />
+                  <column datatype='string' name='Dechal' ordinal='46' />
+                  <column datatype='real' name='Dose Amt' ordinal='47' />
+                  <column datatype='string' name='Dose Form' ordinal='48' />
+                  <column datatype='string' name='Dose Freq' ordinal='49' />
+                  <column datatype='string' name='Dose Unit' ordinal='50' />
+                  <column datatype='string' name='Dose Vbm' ordinal='51' />
+                  <column datatype='string' name='Drug Rec Act' ordinal='52' />
+                  <column datatype='integer' name='Drug Seq' ordinal='53' />
+                  <column datatype='string' name='Drugname' ordinal='54' />
+                  <column datatype='integer' name='Dsg Drug Seq' ordinal='55' />
+                  <column datatype='integer' name='Dur' ordinal='56' />
+                  <column datatype='string' name='Dur Cod' ordinal='57' />
+                  <column datatype='integer' name='End Dt' ordinal='58' />
+                  <column datatype='date' name='Event Dt1' ordinal='59' />
+                  <column datatype='date' name='Exp Dt' ordinal='60' />
+                  <column datatype='date' name='Fda Dt' ordinal='61' />
+                  <column datatype='boolean' name='I F Code' ordinal='62' />
+                  <column datatype='integer' name='Indi Drug Seq' ordinal='63' />
+                  <column datatype='string' name='Indi Pt' ordinal='64' />
+                  <column datatype='date' name='Init Fda Dt' ordinal='65' />
+                  <column datatype='string' name='Lit Ref' ordinal='66' />
+                  <column datatype='string' name='Lot Num' ordinal='67' />
+                  <column datatype='date' name='Mfr Dt' ordinal='68' />
+                  <column datatype='string' name='Mfr Num' ordinal='69' />
+                  <column datatype='string' name='Mfr Sndr' ordinal='70' />
+                  <column datatype='integer' name='Nda Num' ordinal='71' />
+                  <column datatype='integer' name='primaryid (DRUG16Q1.txt)' ordinal='72' />
+                  <column datatype='integer' name='primaryid (INDI16Q1.txt)' ordinal='73' />
+                  <column datatype='integer' name='primaryid (OUTC16Q1.txt)' ordinal='74' />
+                  <column datatype='integer' name='primaryid (REAC16Q1.txt)' ordinal='75' />
+                  <column datatype='integer' name='primaryid (RPSR16Q1.txt)' ordinal='76' />
+                  <column datatype='integer' name='primaryid (THER16Q1.txt)' ordinal='77' />
+                  <column datatype='integer' name='Primaryid' ordinal='78' />
+                  <column datatype='string' name='Prod Ai' ordinal='79' />
+                  <column datatype='string' name='Pt' ordinal='80' />
+                  <column datatype='string' name='Rechal' ordinal='81' />
+                  <column datatype='string' name='Reporter Country' ordinal='82' />
+                  <column datatype='string' name='Rept Cod' ordinal='83' />
+                  <column datatype='date' name='Rept Dt' ordinal='84' />
+                  <column datatype='string' name='Role Cod' ordinal='85' />
+                  <column datatype='string' name='Route' ordinal='86' />
+                  <column datatype='string' name='Rpsr Cod' ordinal='87' />
+                  <column datatype='integer' name='Start Dt' ordinal='88' />
+                  <column datatype='integer' name='Val Vbm' ordinal='89' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Ans 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Cambria' fontsize='11'>Total outcome by taking the drug</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Cambria' fontsize='14'>Create a chart displaying the total outcome by taking the drug.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FAERS DATA' name='federated.00kvatr0nj51w71dsbche0jxv1wf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00kvatr0nj51w71dsbche0jxv1wf'>
+            <column datatype='integer' name='[Case Count]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Patient Outcome]' role='dimension' type='nominal' />
+            <column-instance column='[Patient Outcome]' derivation='None' name='[none:Patient Outcome:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Case Count]' derivation='Sum' name='[sum:Case Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Outcome:nk]' />
+              <size column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Outcome:nk]</cols>
+      </table>
+      <simple-id uuid='{025F7A53-9A9B-425B-8C99-D16F6D6D965D}' />
+    </worksheet>
+    <worksheet name='Ans 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Cambria' fontsize='11'>Location-wise adverse events</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Cambria' fontsize='14'>Create a chart displaying location-wise adverse events. </run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FAERS DATA' name='federated.00kvatr0nj51w71dsbche0jxv1wf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00kvatr0nj51w71dsbche0jxv1wf'>
+            <column datatype='integer' name='[Case Count]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Patient Outcome]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Reporter Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Patient Outcome]' derivation='None' name='[none:Patient Outcome:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Reporter Country]' derivation='None' name='[none:Reporter Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Case Count]' derivation='Sum' name='[sum:Case Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Reporter Country:nk]' />
+              <size column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' />
+              <lod column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Outcome:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{100F0196-E942-4ED8-B75E-1C3AB1D84FBA}' />
+    </worksheet>
+    <worksheet name='Ans 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Cambria' fontsize='11'>The event distribution by age and gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FAERS DATA' name='federated.00kvatr0nj51w71dsbche0jxv1wf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00kvatr0nj51w71dsbche0jxv1wf'>
+            <column datatype='string' name='[Age Bracket]' role='dimension' type='nominal' />
+            <column caption='Color by Gender' datatype='string' name='[Calculation_1143632898656841728]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Patient Gender] = &quot;Female&quot; THEN &quot;Female&quot;&#13;&#10;    ELSEIF [Patient Gender] = &quot;Male&quot; THEN &quot;Male&quot;&#13;&#10;        ELSE &quot;Null&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Case Count]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Patient Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Age Bracket]' derivation='None' name='[none:Age Bracket:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1143632898656841728]' derivation='None' name='[none:Calculation_1143632898656841728:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Case Count]' derivation='Sum' name='[pcto:sum:Case Count:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <manual-sort column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Age Bracket:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;65 Yrs &amp; Over&quot;</bucket>
+              <bucket>&quot;55 to 64 Yrs&quot;</bucket>
+              <bucket>&quot;45 to 54 Yrs&quot;</bucket>
+              <bucket>&quot;Undefined&quot;</bucket>
+              <bucket>&quot;35 to 44 Yrs&quot;</bucket>
+              <bucket>&quot;25 to 34 Yrs&quot;</bucket>
+              <bucket>&quot;Under 15 Yrs&quot;</bucket>
+              <bucket>&quot;15 to 24 Yrs&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Calculation_1143632898656841728:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Age Bracket:nk]</rows>
+        <cols>[federated.00kvatr0nj51w71dsbche0jxv1wf].[pcto:sum:Case Count:qk]</cols>
+      </table>
+      <simple-id uuid='{ADF4A490-3157-4B46-91CC-6603C9739988}' />
+    </worksheet>
+    <worksheet name='Ans 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Cambria' fontsize='11'>The event distribution by age group</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FAERS DATA' name='federated.00kvatr0nj51w71dsbche0jxv1wf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00kvatr0nj51w71dsbche0jxv1wf'>
+            <column datatype='string' name='[Age Group]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Case Count]' role='measure' type='quantitative' />
+            <column-instance column='[Age Group]' derivation='None' name='[none:Age Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Case Count]' derivation='Sum' name='[sum:Case Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' />
+              <size column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' />
+              <text column='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Age Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{44FB749E-C2AE-49F5-90E0-C729764EC17F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='14'>Drug comparator</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98230' id='17' param='vert' type-v2='layout-flow' w='99064' x='468' y='885'>
+            <zone h='3761' id='18' type-v2='title' w='99064' x='468' y='885'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='94469' id='7' param='horz' type-v2='layout-flow' w='99064' x='468' y='4646'>
+              <zone h='94469' id='5' type-v2='layout-basic' w='89702' x='468' y='4646'>
+                <zone h='47234' id='3' name='Ans 1' w='44851' x='468' y='4646'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='47234' id='10' name='Ans 2' w='44851' x='45319' y='4646'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='47235' id='12' name='Ans 3' w='44851' x='45319' y='51880'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='47235' id='14' name='Ans 4' w='44851' x='468' y='51880'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='94469' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9362' x='90170' y='4646'>
+                <zone h='20575' id='8' name='Ans 1' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Outcome:nk]' type-v2='color' w='9362' x='90170' y='4646'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='13938' id='9' name='Ans 1' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' type-v2='size' w='9362' x='90170' y='25221'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='43253' id='11' name='Ans 2' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Reporter Country:nk]' type-v2='color' w='9362' x='90170' y='39159'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9513' id='13' name='Ans 3' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Calculation_1143632898656841728:nk]' type-v2='color' w='9362' x='90170' y='82412'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='7190' id='15' name='Ans 4' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' type-v2='color' w='9362' x='90170' y='91925'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='14'>Drug comparator</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98230' id='19' param='vert' type-v2='layout-flow' w='99064' x='468' y='885'>
+                <zone h='3761' id='18' type-v2='title' w='99064' x='468' y='885'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47234' id='3' is-fixed='true' name='Ans 1' w='44851' x='468' y='4646'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='20575' id='8' name='Ans 1' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Outcome:nk]' type-v2='color' w='9362' x='90170' y='4646'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13938' id='9' name='Ans 1' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' type-v2='size' w='9362' x='90170' y='25221'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47234' id='10' is-fixed='true' name='Ans 2' w='44851' x='45319' y='4646'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='43253' id='11' name='Ans 2' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Reporter Country:nk]' type-v2='color' w='9362' x='90170' y='39159'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47235' id='14' is-fixed='true' name='Ans 4' w='44851' x='468' y='51880'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7190' id='15' name='Ans 4' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' type-v2='color' w='9362' x='90170' y='91925'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47235' id='12' is-fixed='true' name='Ans 3' w='44851' x='45319' y='51880'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9513' id='13' name='Ans 3' pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Calculation_1143632898656841728:nk]' type-v2='color' w='9362' x='90170' y='82412'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1257A0C4-A9ED-44CB-A819-63DBCB5FD934}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Ans 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Outcome:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' type='size' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Outcome:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B9F4C566-33CD-48F5-835E-CA20BC68D1B7}' />
+    </window>
+    <window class='worksheet' name='Ans 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Reporter Country:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Outcome:nk]</field>
+            <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Reporter Country:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{67F565ED-7B32-4FF9-9BC2-DD190390FE8A}' />
+    </window>
+    <window class='worksheet' name='Ans 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Calculation_1143632898656841728:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Age Bracket:nk]</field>
+            <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Calculation_1143632898656841728:nk]</field>
+            <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Gender (Null Color):nk]</field>
+            <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Gender:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C07F0200-DCB3-4C2F-B166-224517984DDA}' />
+    </window>
+    <window class='worksheet' name='Ans 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00kvatr0nj51w71dsbche0jxv1wf].[sum:Case Count:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Age Group:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{08485965-3FFF-465A-B49E-7BE131BE1638}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Ans 1'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Patient Outcome:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Ans 2'>
+          <highlight>
+            <color-one-way>
+              <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Reporter Country:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Ans 3'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.00kvatr0nj51w71dsbche0jxv1wf].[none:Calculation_1143632898656841728:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Ans 4' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D87429FD-C2C8-4EEC-B81E-FEE7B13D9FB5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Ans 1' width='192'>
+      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
+      VpoAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Ans 2' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Ans 3' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Ans 4' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAADOklEQVR4nO3XzW4WZRiA4af0K6WpSgQMaTAacemJehyehqfg0kBYmFqiWARbWuxHf4S6
+      MCE26UqTVnNf12pm3kzyzOLO+87K+fn5+UDUjeseAK6TAEhb/P3m62++nSc7z69rFrhyFwJ4
+      svN8vnv89LpmgSvnCETa4rKHXz3cmuOTs/niwb3ZOzia5cnprK8t5u7tzfnt4GhWVlZm89bN
+      WV29MXsHR3M+M/fvfDgv9n+ft+/ezaPt3Sv+DPhnLt0B1hars7G+Nts/v5yHD+7OBxvrc3Ox
+      Oju/7M3nW3fm1s3FPNrenb3D5Wzduz2f3f94nu7uv38X/i8u3QF++nV/1hars3/4ZvZfL+f4
+      9GxWZmXOZ2bvcDlHb07my08/me9/eDbPXryamZnl8emc/fF2PtrcuMr54V+5NICXr47eXx+f
+      nl1YWx6fzszM4x//OubsHS4vrO+/vngP/2V+gkkTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkC
+      IE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDS
+      BECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0A
+      pAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECa
+      AEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmA
+      NAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgT
+      AGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQ
+      JgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkC
+      IE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDS
+      BECaAEgTAGkCIE0ApAmANAGQ9ieUFmYLbcfFxAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
